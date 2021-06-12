@@ -1,0 +1,73 @@
+.background {
+  background: #F2F2F2;
+  padding: 17vh 15vw;
+  color: #fff;
+}
+
+/* Column */
+div .column {
+  padding: 8vh 4vw;
+}
+
+.col-color-1 {
+  background: #E38826;
+  }
+
+.col-color-2 {
+  background: #006970;
+  }
+
+.col-color-3 {
+  background: #004241;
+}
+
+/* Typography */
+.heading {
+   font-family: 'Big Shoulders Display';
+   font-weight: 700;
+   font-size: 40px;
+   padding-top: 5vh;
+ }
+p {
+  font-family: "Lexend Deca", sans-serif;
+  opacity: 0.75;
+  font-size: 15px;
+  padding-bottom: 5vh;
+  padding-top: 3vh;
+}
+
+/* Buttons */
+.button {
+  width: 130px;
+  height: 45px;
+  background-color: #fff;
+  border: none;
+  border-radius: 25px;
+}
+.color-1 {
+  color: #E38826;
+  }
+
+.color-2 {
+  color: #006970;
+  }
+
+.color-3 {
+  color: #004241;
+}
+
+.button:hover {
+  background-color: transparent;
+  border:2px solid #fff;
+  color: #fff;
+}
+
+@media (max-width: 767px) {
+  div .column {
+    padding: 5vh 10vw;
+  }
+
+  p {
+    padding-bottom: 2vh;
+  }
+}
